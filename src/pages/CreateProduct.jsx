@@ -1,6 +1,6 @@
 // importar el componente formulario
 
-import CreateProductForm from '../Components/AdminDashboard/CreateProductForm/CreateProductForm'
+import CreateProductForm from '../components/AdminDashboard/CreateProductForm/CreateProductForm'
 
 const CreateProduct = () => {
     return (

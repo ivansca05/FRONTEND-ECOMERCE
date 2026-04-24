@@ -1,7 +1,7 @@
 import { CgTrash } from 'react-icons/cg'
 import { FaMinus, FaPlus } from 'react-icons/fa'
-import { useCart } from '../../Context/CartContext'
-import { useUser } from '../../Context/UserContext'
+import { useCart } from '../../context/CartContext'
+import { useUser } from '../../context/UserContext'
 import { Link } from 'react-router'
 
 const ModalCart = () => {

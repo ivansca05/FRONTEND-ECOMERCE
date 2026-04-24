@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form'
-import { useProduct } from '../../../Context/ProductContext'
+import { useProduct } from '../../../context/ProductContext'
 import toast from 'react-hot-toast'
 import { useNavigate } from 'react-router'
 

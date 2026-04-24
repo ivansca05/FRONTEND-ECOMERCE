@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 import { useUser } from '../../context/UserContext'
-import { useCart } from '../../Context/CartContext'
+import { useCart } from '../../context/CartContext'
 import { FaShoppingCart } from 'react-icons/fa'
 
 const CardProduct = ({

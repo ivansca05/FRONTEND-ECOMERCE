@@ -1,5 +1,5 @@
 import ModalCart from './ModalCart'
-import { useCart } from '../../Context/CartContext'
+import { useCart } from '../../context/CartContext'
 
 const Cart = () => {
     const { total, itemsQuantity, openModal, isModalOpen } = useCart()

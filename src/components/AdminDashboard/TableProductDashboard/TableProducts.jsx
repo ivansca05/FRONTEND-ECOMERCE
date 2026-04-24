@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import { useProduct } from '../../../Context/ProductContext'
+import { useProduct } from '../../../context/ProductContext'
 import toast from 'react-hot-toast'
 
 const TableProducts = ({ products }) => {

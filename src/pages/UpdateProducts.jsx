@@ -1,6 +1,6 @@
-import UpdateProductForm from '../Components/AdminDashboard/UpdateProductForm/UpdateProductForm'
+import UpdateProductForm from '../components/AdminDashboard/UpdateProductForm/UpdateProductForm'
 import { useParams } from 'react-router'
-import { useProduct } from '../Context/ProductContext'
+import { useProduct } from '../context/ProductContext'
 import { useEffect } from 'react'
 
 const UpdateProduct = () => {
