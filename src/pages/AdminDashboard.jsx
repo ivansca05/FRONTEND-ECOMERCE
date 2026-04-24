@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router'
-import TableProductDashboard from '../Components/AdminDashboard/TableProductDashboard/TableProductDashboard'
-import DashboardLayout from '../Layout/DashboardLayout'
+import TableProductDashboard from '../components/AdminDashboard/TableProductDashboard/TableProductDashboard'
+import DashboardLayout from '../layout/DashboardLayout'
 import CreateProduct from './CreateProduct'
 import UpdateProduct from './UpdateProducts'
 
