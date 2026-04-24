@@ -11,13 +11,21 @@ const Navbar = () => {
             <AuthButtons />
             <nav className="navbar bg-base-100 shadow-sm lg:rounded-box w-full">
                 <div className="navbar-start">
-                    <Link className="btn btn-ghost text-xl font-bold uppercase text-gray-700" to="/">
+                    <Link
+                        className="btn btn-ghost text-xl font-bold uppercase text-gray-700"
+                        to="/"
+                    >
                         Umbrella Shop
                     </Link>
                 </div>
                 <div className="navbar-end gap-3">
                     {userInfo?.isAdmin && (
-                        <a className="btn btn-primary">Dashboard</a>
+                        <Link
+                            to="/admin/dashboard/products"
+                            className="btn btn-primary"
+                        >
+                            Dashboard
+                        </Link>
                     )}
                     <Cart />
                     {!loading && userInfo?.username && <UserDropDown />}
