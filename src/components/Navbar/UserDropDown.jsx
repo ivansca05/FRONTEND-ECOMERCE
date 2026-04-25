@@ -1,15 +1,18 @@
 import { useUser } from "../../context/UserContext"
 import toast from "react-hot-toast"
 import { logoutService } from "../../services/authServices"
+import { useNavigate } from "react-router"
 
 const UserDropDown = () => {
     const { setUserInfo } = useUser()
+    const navigate = useNavigate()
 
     const handleLogout = async () => {
         try {
             await logoutService()
             setUserInfo(null)
             toast.success('Sesión cerrada exitosamente')
+            navigate('/')
         } catch (error) {
             console.error('Error al cerrar sesión:', error)
             toast.error('Error al iniciar sesión, intente nuevamente')
