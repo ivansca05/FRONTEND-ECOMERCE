@@ -1,9 +1,9 @@
 import { Link } from 'react-router'
 import { useUser } from '../../context/UserContext'
 
+
 const AuthButtons = () => {
     const { userInfo } = useUser()
-
     //si hay usuario logueado, no mostrar los botones de login y register
     if (userInfo) {
         return null
