@@ -28,7 +28,7 @@ const UserDropDown = () => {
             >
                 <div className="w-10 rounded-full">
                     <img
-                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                        src="https://res.cloudinary.com/dkoqeulbc/image/upload/v1777252119/3527523_cristiano_ronaldo_20240528093324_ijeusx.jpg"
                         alt="avatar"
                     />
                 </div>
@@ -37,17 +37,6 @@ const UserDropDown = () => {
                 tabIndex={0}
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow"
             >
-                <li>
-                    <a className="justify-between">
-                        Perfil
-                        <span className="badge">Nuevo</span>
-                    </a>
-                </li>
-                 <li>
-                    <a className="justify-between">
-                        Configuración
-                    </a>
-                </li>
                  <li>
                     <a onClick={handleLogout} className="justify-between">
                         Cerrar sesión
